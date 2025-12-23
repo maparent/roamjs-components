@@ -571,3 +571,5 @@ export type OnloadArgs = {
     version: string;
   };
 };
+
+export type GenericQueryResult = unknown[] | Record<string, unknown>;
